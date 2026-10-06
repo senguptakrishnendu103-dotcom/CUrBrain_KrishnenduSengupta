@@ -12,18 +12,9 @@ def kth_factor(n,k):
         return factors[k-1]
     else:
         return -1
-n1=12
-k1=3
-n2=1
-k2=1
-n3=12
-k3=6
-n4=12
-k4=7
-n5=36
-k5=5
-print(kth_factor(n1,k1))
-print(kth_factor(n2,k2))
-print(kth_factor(n3,k3))
-print(kth_factor(n4,k4))
-print(kth_factor(n5,k5))
+
+print(kth_factor(12,3))
+print(kth_factor(1,1))
+print(kth_factor(12,6))
+print(kth_factor(12,7))
+print(kth_factor(36,5))
